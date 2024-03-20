@@ -1,0 +1,184 @@
+.frameChild {
+  height: 1071px;
+  width: 842px;
+  position: relative;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-lightpink);
+  display: none;
+  max-width: 100%;
+}
+.suggestingPerfectlySuited {
+  font-weight: 600;
+}
+.accordingToThe {
+  color: var(--color-white);
+}
+.suggestingPerfectlySuitedContainer {
+  height: 120px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.chromeButtonInner,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-lightpink);
+  flex-direction: row;
+  padding: var(--padding-42xl) var(--padding-25xl);
+  min-height: 1071px;
+}
+.chromeButtonInner {
+  width: 842px;
+  flex-direction: column;
+  padding: var(--padding-mini) 0 0;
+}
+.librarySelectionChild {
+  height: 1071px;
+  width: 842px;
+  position: relative;
+  border-radius: var(--br-71xl);
+  display: none;
+  max-width: 100%;
+}
+.haveTwoDifferent {
+  margin: 0;
+}
+.haveTwoDifferentContainer {
+  height: 230px;
+  width: 668px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameItem,
+.librarySelection {
+  width: 842px;
+  border-radius: var(--br-71xl);
+  max-width: 100%;
+}
+.librarySelection {
+  background-color: var(--color-mediumseagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-38xl) var(--padding-xl) var(--padding-38xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  min-height: 1071px;
+}
+.frameItem {
+  height: 1071px;
+  position: relative;
+  background-color: var(--color-lightpink);
+  display: none;
+}
+.takingTheHelp {
+  font-weight: 600;
+}
+.toSuggestCode {
+  color: var(--color-white);
+}
+.takingTheHelpContainer {
+  height: 493px;
+  width: 526px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.chromeButtonChild,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-lightpink);
+  flex-direction: row;
+  padding: var(--padding-38xl) var(--padding-25xl);
+  min-height: 1071px;
+}
+.chromeButtonChild {
+  width: 842px;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.chromeButton,
+.installExtension {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.chromeButton {
+  width: 3254px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.installExtension {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-126xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-gray);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 3300px) {
+  .librarySelection {
+    min-height: auto;
+  }
+  .chromeButton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .suggestingPerfectlySuitedContainer {
+    font-size: var(--font-size-31xl);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .haveTwoDifferentContainer,
+  .takingTheHelpContainer {
+    font-size: var(--font-size-31xl);
+  }
+  .rectangleGroup {
+    padding: var(--padding-18xl) var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .installExtension {
+    padding-left: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .haveTwoDifferentContainer,
+  .suggestingPerfectlySuitedContainer,
+  .takingTheHelpContainer {
+    font-size: var(--font-size-11xl);
+  }
+}

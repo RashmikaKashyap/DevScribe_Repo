@@ -1,0 +1,222 @@
+.about {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.aboutWrapper {
+  height: 252px;
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 54px 0 0;
+  box-sizing: border-box;
+}
+.devscribe {
+  margin: 0;
+  height: 252px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 616px;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1260px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-15xl) 0;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+}
+.codeYourWay {
+  height: 126px;
+  width: 1167px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.codeYourWayAroundWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 120px 92px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-81xl);
+  color: var(--color-lightcoral);
+}
+.desktopInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 18px;
+}
+.desktopInner {
+  width: 3717px;
+  flex-direction: row;
+  padding: 0 2px var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 200px;
+  color: var(--color-darkolivegreen);
+  font-family: var(--font-outfit);
+}
+.toInstallOur {
+  align-self: stretch;
+  height: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 300px;
+  width: 1495px;
+  position: relative;
+  border-radius: var(--br-481xl);
+  background-color: var(--color-lightcoral);
+  display: none;
+  max-width: 100%;
+}
+.installChromeExtension {
+  height: 126px;
+  width: 1118px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.callToActionLabel,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1495px;
+  border-radius: var(--br-481xl);
+  background-color: var(--color-lightcoral);
+  justify-content: flex-end;
+  padding: 87px 128px;
+}
+.callToActionLabel {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 26px 0 var(--padding-xl);
+  color: var(--color-gray);
+}
+.toInstallOurChromeExtensioParent {
+  width: 2583px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 198px;
+  max-width: 100%;
+}
+.desktop,
+.extensionButton {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.extensionButton {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 139px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-lightcoral);
+  font-family: var(--font-outfit);
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: #b1ffb9;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 101px 0 0 76px;
+  gap: 164px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1400px) {
+  .devscribe {
+    font-size: var(--font-size-61xl);
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: 40px;
+  }
+  .codeYourWay {
+    font-size: var(--font-size-31xl);
+  }
+  .codeYourWayAroundWrapper {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .installChromeExtension,
+  .toInstallOur {
+    font-size: var(--font-size-31xl);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .toInstallOurChromeExtensioParent {
+    gap: 49px 198px;
+  }
+  .desktop,
+  .extensionButton {
+    padding-left: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .desktop {
+    gap: 41px 164px;
+    padding-left: var(--padding-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .devscribe {
+    font-size: var(--font-size-31xl);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .codeYourWay,
+  .installChromeExtension,
+  .toInstallOur {
+    font-size: var(--font-size-11xl);
+  }
+  .toInstallOurChromeExtensioParent {
+    gap: 25px 198px;
+  }
+  .desktop {
+    gap: 20px 164px;
+  }
+}
